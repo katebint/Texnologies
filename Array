@@ -1,0 +1,22 @@
+@TEST
+public static void TestMessage {
+List <String> result = transformList(new ArrayList<String>);
+result= " Some Message";
+expetedMassage= 
+assertequal(expetedMassage, result);
+}
+
+@TEST
+public static void  TestEmptyList{
+List <String> result = new ArrayList<String>;
+fail(" Should fail because its not empty)
+}
+
+@TEST
+puclic static void TestWithGaps{
+ String msg = new msg
+ result =  " A  Lo  t of gaps" ;
+ expetedMassage=
+ assertequal(expetedMassage, result)
+ 
+}
